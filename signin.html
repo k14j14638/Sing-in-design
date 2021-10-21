@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>登入</title>
+</head>
+<body>
+    <div class="container" id="container">
+        
+        <div class="form-container sign-up-container">
+            <form action="#">
+                <h1>註冊帳戶</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#" class="social"><i class="fab fa-instagram"></i></a>
+                </div>
+                <span>或使用您的Email進行註冊</span>
+                <input type="text" placeholder="姓名">
+                <input type="text" placeholder="電子郵件">
+                <input type="text" placeholder="密碼">
+                <button>註冊</button>
+            </form>
+        </div>
+
+
+        <div class="form-container sign-in-container">
+            <form action="#">
+                <h1>登入</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#" class="social"><i class="fab fa-instagram"></i></a>
+                </div>
+                <span>或使用您的其他帳戶登入</span>
+                <input type="text" placeholder="信箱">
+                <input type="text" placeholder="密碼">
+                <a href="#">忘記密碼？</a>
+                <button>登入</button>
+            </form>
+        </div>
+
+
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>歡迎回來！</h1>
+                    <p>要與我們保持聯繫，請使用您的個人資訊登錄
+                    </p>
+                    <button class="ghost" id="signIn">登入</button>
+                </div>
+
+                <div class="overlay-panel overlay-right">
+                    <h1>你好，朋友！</h1>
+                    <p>輸入您的個人詳細資訊並與我們一起開始旅程
+                    </p>
+                    <button class="ghost" id="signUp">註冊</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
